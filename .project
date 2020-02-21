@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>E%%WebService%Sample Web Services Testing Project.prj</name>
 	<comment></comment>
 	<projects>
@@ -124,6 +125,35 @@
 		</filter>
 		<filter>
 			<id>1581495632888</id>
+=======
+	<name>C%%Users%ignacio%git%Sample-API-test-Project%Sample-API-test-Project.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<filteredResources>
+		<filter>
+			<id>1582273173017</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1582273173028</id>
+>>>>>>> branch 'master' of https://github.com/IgnacioKatalon/Sample-API-test-Project.git
 			<name></name>
 			<type>6</type>
 			<matcher>
