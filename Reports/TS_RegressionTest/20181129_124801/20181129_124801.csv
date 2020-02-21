@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,,,2018-11-29 12:48:03,2018-11-29 12:48:06,2.700s,FAILED
+,,,,,,
+Test Cases/TC01_REST_Verify Email from list of Comments,,Verify comment's email from,2018-11-29 12:48:03,2018-11-29 12:48:05,1.821s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(REST_CommentDetails)),,Send a SOAP request and returns its response,2018-11-29 12:48:04,2018-11-29 12:48:05,1.374s,PASSED
+verifyElementPropertyValue,,Verify if comment's email after sending request is correct or not,2018-11-29 12:48:05,2018-11-29 12:48:05,0.065s,PASSED
+,,,,,,
+Test Cases/TC02_SOAP_Verify Converted Weight,,Verify if converted weight after sending request is correct or not,2018-11-29 12:48:05,2018-11-29 12:48:05,0.430s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP_ConvertWeight)),,Send a SOAP request and returns its response,2018-11-29 12:48:05,2018-11-29 12:48:05,0.198s,FAILED
